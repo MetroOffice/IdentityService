@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MetroOffice.IdentityService.Domain.Shared\MetroOffice.IdentityService.Domain.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Identity.Domain" Version="5.0.0-beta.1" />
+		<PackageReference Include="Volo.Abp.IdentityServer.Domain" Version="5.0.0-beta.1" />
+	</ItemGroup>
+
+</Project>
