@@ -1,8 +1,8 @@
 ﻿using Volo.Abp.Localization;
 
-namespace MetroOffice.IdentityService.Localization
+namespace MetroOffice.IdentityService.Domain.Shared.Localization
 {
-    [LocalizationResourceName("MetroOffice.IdentityService")]
+    [LocalizationResourceName("IdentityService")]
     public class IdentityServiceResource
     {
 

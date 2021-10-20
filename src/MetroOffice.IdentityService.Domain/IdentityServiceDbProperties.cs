@@ -1,6 +1,6 @@
 ﻿namespace MetroOffice.IdentityService.Domain
 {
-    internal class IdentityServiceDbProperties
+    public class IdentityServiceDbProperties
     {
         public static string DbTablePrefix { get; set; } = "";
 

@@ -1,4 +1,4 @@
-﻿namespace MetroOffice.IdentityService
+﻿namespace MetroOffice.IdentityService.Domain.Shared
 {
     public static class IdentityServiceDomainErrorCodes
     {

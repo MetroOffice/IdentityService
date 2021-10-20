@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Threading;
 
-namespace MetroOffice.IdentityService
+namespace MetroOffice.IdentityService.Domain.Shared
 {
     public static class IdentityServiceModuleExtensionConfigurator
     {

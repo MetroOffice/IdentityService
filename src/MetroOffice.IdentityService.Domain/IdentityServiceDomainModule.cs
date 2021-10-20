@@ -1,4 +1,5 @@
-﻿using Volo.Abp.Identity;
+﻿using MetroOffice.IdentityService.Domain.Shared;
+using Volo.Abp.Identity;
 using Volo.Abp.IdentityServer;
 using Volo.Abp.Modularity;
 

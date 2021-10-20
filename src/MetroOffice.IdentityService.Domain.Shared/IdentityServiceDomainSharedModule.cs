@@ -1,4 +1,4 @@
-﻿using MetroOffice.IdentityService.Localization;
+﻿using MetroOffice.IdentityService.Domain.Shared.Localization;
 using Volo.Abp.Identity;
 using Volo.Abp.IdentityServer;
 using Volo.Abp.Localization;
@@ -6,7 +6,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
 
-namespace MetroOffice.IdentityService
+namespace MetroOffice.IdentityService.Domain.Shared
 {
     [DependsOn(
         typeof(AbpIdentityDomainSharedModule),
@@ -31,7 +31,7 @@ namespace MetroOffice.IdentityService
                 options.Resources
                     .Add<IdentityServiceResource>("en")
                     .AddBaseTypes(typeof(AbpValidationResource))
-                    .AddVirtualJson("/Localization/MetroOffice.IdentityService");
+                    .AddVirtualJson("/Localization/IdentityService");
 
                 options.DefaultResourceType = typeof(IdentityServiceResource);
             });
