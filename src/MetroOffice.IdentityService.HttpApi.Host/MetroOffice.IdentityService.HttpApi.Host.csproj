@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MetroOffice.IdentityService.Application\MetroOffice.IdentityService.Application.csproj" />
+    <ProjectReference Include="..\MetroOffice.IdentityService.EntityFrameworkCore\MetroOffice.IdentityService.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\MetroOffice.IdentityService.HttpApi\MetroOffice.IdentityService.HttpApi.csproj" />
   </ItemGroup>
 

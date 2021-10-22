@@ -1,4 +1,5 @@
 ﻿using MetroOffice.IdentityService.Application;
+using MetroOffice.IdentityService.EntityFrameworkCore;
 using Microsoft.AspNetCore.Cors;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.MultiTenancy;
@@ -15,6 +16,7 @@ namespace MetroOffice.IdentityService.HttpApi.Host
     [DependsOn(
         typeof(IdentityServiceHttpApiModule),
         typeof(IdentityServiceApplicationModule),
+        typeof(IdentityServiceEntityFrameworkCoreModule),
         typeof(AbpAspNetCoreMultiTenancyModule),
         typeof(AbpAspNetCoreSerilogModule),
         typeof(AbpSwashbuckleModule),
