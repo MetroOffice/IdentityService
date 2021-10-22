@@ -36,7 +36,7 @@ namespace MetroOffice.IdentityService.EntityFrameworkCore
                 .SetBasePath(
                     Path.Combine(
                         Directory.GetCurrentDirectory(),
-                        $"..{Path.DirectorySeparatorChar}EShopOnAbp.IdentityService.HttpApi.Host"
+                        $"..{Path.DirectorySeparatorChar}MetroOffice.IdentityService.HttpApi.Host"
                     )
                 )
                 .AddJsonFile("appsettings.json", optional: false);

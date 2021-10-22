@@ -1,7 +1,27 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.11" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+	  <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+	  <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+	  <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+	  <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+	  <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="5.0.0-beta.1" />
+	  <PackageReference Include="Volo.Abp.Swashbuckle" Version="5.0.0-beta.1" />
+	  <PackageReference Include="Volo.Abp.Autofac" Version="5.0.0-beta.1" />
+	  <PackageReference Include="Volo.Abp.AspNetCore.MultiTenancy" Version="5.0.0-beta.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MetroOffice.IdentityService.Application\MetroOffice.IdentityService.Application.csproj" />
+    <ProjectReference Include="..\MetroOffice.IdentityService.HttpApi\MetroOffice.IdentityService.HttpApi.csproj" />
+  </ItemGroup>
 
 </Project>
